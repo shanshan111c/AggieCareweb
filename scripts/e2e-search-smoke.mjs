@@ -17,7 +17,8 @@ try{
   for(const tc of checks){
     await box.fill(tc.query);
     await box.press("Enter");
-    await page.waitForFunction((names)=>names.every(name=>document.body.innerText.includes(name)),tc.contains,{timeout:15000});
+    try { await page.waitForFunction((names)=>names.every(name=>document.body.innerText.includes(name)),tc.contains,{timeout:7000}); }
+    catch(error){console.error("SEARCH RESULTS FOR",JSON.stringify(tc.query),(await page.locator("body").innerText()).slice(0,11000));throw error;}
     const content=await page.locator("body").innerText();
     if(!tc.contains.every(n=>content.includes(n))) throw new Error("Unexpected UI search output for "+tc.query);
     console.log("PASS",JSON.stringify(tc.query),"->",tc.contains.join(", "));
