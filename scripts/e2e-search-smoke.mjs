@@ -11,7 +11,7 @@ try{
     {query:"I feel like shit",contains:["Crisis Counseling","Acute Care Clinic"]},
     {query:"I feel dizzy and nauseous",contains:["Acute Care Clinic"]},
     {query:"I feel bad emotionally",contains:["Crisis Counseling"]},
-    {query:"I need free food",contains:["Aggie Eats Food Truck"]},
+    {query:"I need free food",contains:["AggieEats Food Truck"]},
     {query:"我心情很难受",contains:["Crisis Counseling"]}
   ];
   for(const tc of checks){
