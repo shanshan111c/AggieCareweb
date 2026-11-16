@@ -20,7 +20,7 @@ jobs:
         run: node scripts/test-colloquial-intents.mjs
 
   browser-smoke:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     needs: test
     steps:
       - uses: actions/checkout@v4
