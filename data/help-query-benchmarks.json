@@ -1,0 +1,220 @@
+[
+  {
+    "query": "shit I Feel bad",
+    "expected_ids": [
+      "counseling",
+      "acute-care"
+    ]
+  },
+  {
+    "query": "I feel like shit",
+    "expected_ids": [
+      "counseling",
+      "acute-care"
+    ]
+  },
+  {
+    "query": "idk I feel awful",
+    "expected_ids": [
+      "counseling",
+      "acute-care"
+    ]
+  },
+  {
+    "query": "I'm not okay",
+    "expected_ids": [
+      "counseling",
+      "acute-care"
+    ]
+  },
+  {
+    "query": "I don't feel good",
+    "expected_ids": [
+      "counseling",
+      "acute-care"
+    ]
+  },
+  {
+    "query": "not feeling well",
+    "expected_ids": [
+      "counseling",
+      "acute-care"
+    ]
+  },
+  {
+    "query": "i feel terrible rn",
+    "expected_ids": [
+      "counseling",
+      "acute-care"
+    ]
+  },
+  {
+    "query": "I feel bad because I have a fever",
+    "expected_ids": [
+      "acute-care"
+    ]
+  },
+  {
+    "query": "i feel dizzy and nauseous",
+    "expected_ids": [
+      "acute-care"
+    ]
+  },
+  {
+    "query": "I feel sick af",
+    "expected_ids": [
+      "acute-care"
+    ]
+  },
+  {
+    "query": "I am physically unwell",
+    "expected_ids": [
+      "acute-care"
+    ]
+  },
+  {
+    "query": "I feel sad",
+    "expected_ids": [
+      "counseling"
+    ]
+  },
+  {
+    "query": "I am panicking",
+    "expected_ids": [
+      "counseling"
+    ]
+  },
+  {
+    "query": "I can't stop crying",
+    "expected_ids": [
+      "counseling"
+    ]
+  },
+  {
+    "query": "my mental health is tanking",
+    "expected_ids": [
+      "counseling"
+    ]
+  },
+  {
+    "query": "i can't do this anymore",
+    "expected_ids": [
+      "counseling"
+    ]
+  },
+  {
+    "query": "I feel bad emotionally",
+    "expected_ids": [
+      "counseling"
+    ]
+  },
+  {
+    "query": "I'm so cooked",
+    "expected_ids": [
+      "counseling"
+    ]
+  },
+  {
+    "query": "lowkey freaking out",
+    "expected_ids": [
+      "counseling"
+    ]
+  },
+  {
+    "query": "我真的好难受",
+    "expected_ids": [
+      "counseling",
+      "acute-care"
+    ]
+  },
+  {
+    "query": "我心情很难受",
+    "expected_ids": [
+      "counseling"
+    ]
+  },
+  {
+    "query": "我胃好难受",
+    "expected_ids": [
+      "acute-care"
+    ]
+  },
+  {
+    "query": "我快崩溃了",
+    "expected_ids": [
+      "counseling"
+    ]
+  },
+  {
+    "query": "我身体不舒服",
+    "expected_ids": [
+      "acute-care"
+    ]
+  },
+  {
+    "query": "感觉不对劲",
+    "expected_ids": [
+      "counseling",
+      "acute-care"
+    ]
+  },
+  {
+    "query": "me siento fatal",
+    "expected_ids": [
+      "counseling",
+      "acute-care"
+    ]
+  },
+  {
+    "query": "I feel bad for my friend",
+    "expected_ids": null
+  },
+  {
+    "query": "I feel bad at math",
+    "expected_ids": null
+  },
+  {
+    "query": "I don't feel bad",
+    "expected_ids": null
+  },
+  {
+    "query": "my phone is broken",
+    "expected_ids": null
+  },
+  {
+    "query": "I'm cooked for finals",
+    "expected_ids": null
+  },
+  {
+    "query": "sick of school",
+    "expected_ids": null
+  },
+  {
+    "query": "I need free food",
+    "expected_ids": null
+  },
+  {
+    "query": "I need condoms",
+    "expected_ids": null
+  },
+  {
+    "query": "I want to kill myself",
+    "expected_ids": null
+  },
+  {
+    "query": "I feel awful and want to die",
+    "expected_ids": null
+  },
+  {
+    "query": "My ex hit me",
+    "expected_ids": null
+  },
+  {
+    "query": "我好难受想自杀",
+    "expected_ids": null
+  },
+  {
+    "query": "help now",
+    "expected_ids": null
+  }
+]
