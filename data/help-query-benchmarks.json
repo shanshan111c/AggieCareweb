@@ -216,5 +216,73 @@
   {
     "query": "help now",
     "expected_ids": null
+  },
+  {
+    "query": "I'm having a rough time",
+    "expected_ids": [
+      "counseling"
+    ]
+  },
+  {
+    "query": "I'm having a hard time mentally",
+    "expected_ids": [
+      "counseling"
+    ]
+  },
+  {
+    "query": "I'm mentally exhausted",
+    "expected_ids": [
+      "counseling"
+    ]
+  },
+  {
+    "query": "im spiraling",
+    "expected_ids": [
+      "counseling"
+    ]
+  },
+  {
+    "query": "I feel emotionally drained",
+    "expected_ids": [
+      "counseling"
+    ]
+  },
+  {
+    "query": "I'm falling apart",
+    "expected_ids": [
+      "counseling"
+    ]
+  },
+  {
+    "query": "lowkey spiraling",
+    "expected_ids": [
+      "counseling"
+    ]
+  },
+  {
+    "query": "我心态崩了",
+    "expected_ids": [
+      "counseling"
+    ]
+  },
+  {
+    "query": "我撑不住了",
+    "expected_ids": [
+      "counseling"
+    ]
+  },
+  {
+    "query": "压力爆炸",
+    "expected_ids": [
+      "counseling"
+    ]
+  },
+  {
+    "query": "I'm having a hard time choosing which class to take",
+    "expected_ids": null
+  },
+  {
+    "query": "I'm struggling with Python code",
+    "expected_ids": null
   }
 ]
