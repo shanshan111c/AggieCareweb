@@ -4,6 +4,10 @@ const page=await browser.newPage({locale:"en-US",viewport:{width:1440,height:900
 const root="http://127.0.0.1:8765/AggieCareweb/";
 try{
   await page.goto(root,{waitUntil:"networkidle",timeout:45000});
+  const bridge=await page.evaluate(() => typeof window.__aggieEmotionHint);
+  if(bridge!== "function")throw new Error("GoEmotions local inference JS failed to load");
+  const noHijack=await page.evaluate(() => window.__aggieEmotionHint("I need free food"));
+  if(noHijack!==null)throw new Error("Emotion model hijacks food requests");
   const box=page.locator("form.smart-search input");
   await box.waitFor({timeout:15000});
   const checks=[
@@ -12,7 +16,9 @@ try{
     {query:"I feel dizzy and nauseous",contains:["Acute Care Clinic"]},
     {query:"I feel bad emotionally",contains:["Crisis Counseling"]},
     {query:"I need free food",contains:["AggieEats Food Truck"]},
-    {query:"我心情很难受",contains:["Crisis Counseling"]}
+    {query:"我心情很难受",contains:["Crisis Counseling"]},
+    {query:"I\'m having a rough time",contains:["Crisis Counseling"]},
+    {query:"我心态崩了",contains:["Crisis Counseling"]}
   ];
   for(const tc of checks){
     await box.fill(tc.query);
