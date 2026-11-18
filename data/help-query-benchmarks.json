@@ -284,5 +284,143 @@
   {
     "query": "I'm struggling with Python code",
     "expected_ids": null
+  },
+  {
+    "query": "I'm burnt out",
+    "expected_ids": [
+      "counseling"
+    ]
+  },
+  {
+    "query": "I'm burned out from finals",
+    "expected_ids": [
+      "counseling"
+    ]
+  },
+  {
+    "query": "I'm so stressed af",
+    "expected_ids": [
+      "counseling"
+    ]
+  },
+  {
+    "query": "I'm crashing out",
+    "expected_ids": [
+      "counseling"
+    ]
+  },
+  {
+    "query": "I'm crashing out over finals",
+    "expected_ids": [
+      "counseling"
+    ]
+  },
+  {
+    "query": "I'm spiraling rn",
+    "expected_ids": [
+      "counseling"
+    ]
+  },
+  {
+    "query": "I'm losing it",
+    "expected_ids": [
+      "counseling"
+    ]
+  },
+  {
+    "query": "I'm freaking out",
+    "expected_ids": [
+      "counseling"
+    ]
+  },
+  {
+    "query": "I'm overwhelmed by finals",
+    "expected_ids": [
+      "counseling"
+    ]
+  },
+  {
+    "query": "I'm drowning in assignments",
+    "expected_ids": [
+      "counseling"
+    ]
+  },
+  {
+    "query": "I can't stop stressing",
+    "expected_ids": [
+      "counseling"
+    ]
+  },
+  {
+    "query": "I can't sleep from stress",
+    "expected_ids": [
+      "counseling"
+    ]
+  },
+  {
+    "query": "I legit can't cope anymore",
+    "expected_ids": [
+      "counseling"
+    ]
+  },
+  {
+    "query": "I'm mentally fried",
+    "expected_ids": [
+      "counseling"
+    ]
+  },
+  {
+    "query": "I'm so burned out",
+    "expected_ids": [
+      "counseling"
+    ]
+  },
+  {
+    "query": "my laptop is cooked",
+    "expected_ids": null
+  },
+  {
+    "query": "my code keeps crashing",
+    "expected_ids": null
+  },
+  {
+    "query": "I bombed the midterm",
+    "expected_ids": null
+  },
+  {
+    "query": "I failed my final exam",
+    "expected_ids": null
+  },
+  {
+    "query": "I can't lock in",
+    "expected_ids": null
+  },
+  {
+    "query": "I deadass love class",
+    "expected_ids": null
+  },
+  {
+    "query": "I'm dead lol",
+    "expected_ids": null
+  },
+  {
+    "query": "I'm broke and need groceries",
+    "expected_ids": null
+  },
+  {
+    "query": "I need free food after class",
+    "expected_ids": null
+  },
+  {
+    "query": "I need a nurse, feeling sick",
+    "expected_ids": null
+  },
+  {
+    "query": "My roommate threatened to hurt me",
+    "expected_ids": null
+  },
+  {
+    "query": "I need condoms for tonight",
+    "expected_ids": null
   }
 ]

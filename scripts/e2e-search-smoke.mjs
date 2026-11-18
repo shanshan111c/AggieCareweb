@@ -18,7 +18,9 @@ try{
     {query:"I need free food",contains:["AggieEats Food Truck"]},
     {query:"我心情很难受",contains:["Crisis Counseling"]},
     {query:"I\'m having a rough time",contains:["Crisis Counseling"]},
-    {query:"我心态崩了",contains:["Crisis Counseling"]}
+    {query:"我心态崩了",contains:["Crisis Counseling"]},
+    {query:"I\'m crashing out",contains:["Crisis Counseling"]},
+    {query:"I\'m burnt out",contains:["Crisis Counseling"]}
   ];
   for(const tc of checks){
     await box.fill(tc.query);
