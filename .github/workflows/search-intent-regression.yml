@@ -15,6 +15,9 @@ jobs:
       - name: Validate optional GoEmotions model safeguards
         run: |
           if [ -f docs/goemotions-affect.js ]; then node ml/goemotions/test-runtime.mjs; fi
+      - name: Validate optional TweetEval safeguards
+        run: |
+          if [ -f docs/tweeteval-affect.js ]; then node ml/tweeteval/test-runtime.mjs; fi
       - name: Validate compiled client bundle syntax
         run: |
           node --check docs/_next/static/chunks/app/page-ed393d88a196cbaa.js
