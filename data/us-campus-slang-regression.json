@@ -181,7 +181,9 @@
   },
   {
     "query": "I need a nurse, feeling sick",
-    "expected_ids": null,
+    "expected_ids": [
+      "acute-care"
+    ],
     "category": "explicit-medical",
     "source": "synthetic manually-authored test; not an actual student quote"
   },

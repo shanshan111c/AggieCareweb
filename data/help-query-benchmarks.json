@@ -413,7 +413,9 @@
   },
   {
     "query": "I need a nurse, feeling sick",
-    "expected_ids": null
+    "expected_ids": [
+      "acute-care"
+    ]
   },
   {
     "query": "My roommate threatened to hurt me",
